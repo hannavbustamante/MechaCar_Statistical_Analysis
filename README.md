@@ -36,7 +36,7 @@ Based on our results *(Figure 1)* p-value is 5.35 x 10-11, which is much smaller
 To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared** and **p-value**. According to our results *(Figure 1)* r-squared is 0.7149 and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
 
 <p align="center">
-<img src="Graphics/D1p-valueANDr-squared.PNG" width="60%" height="60%">
+<img src="Graphics/D1pvalueANDrsquared.png" width="60%" height="60%">
 </p>
 <p align="center">
 <i>Figure 1: Linear Regression Results.</i>
@@ -48,7 +48,7 @@ To determine if this linear model predict mpg of MechaCar prototypes effectively
 
 The current manufacturing data meet this design specification for all manufacturing lots in total. According to the results *(Figure 4)* shows that variance is 76.23 PSI, that is within requirements of not exceeding variance 100 PSI. 
 <p align="center">
-<img src="Graphics/D2TotalSummary.PNG" width="45%" height="45%">
+<img src="Graphics/D2TotalSummary.png" width="45%" height="45%">
 </p>
 <p align="center">
 <i>Figure 2: Summary Statistics on Suspension Coils for All Lots.</i>
@@ -59,7 +59,7 @@ The current manufacturing data meet this design specification for all manufactur
 The current manufacturing data partially meet this design specification for each lot separately. According to the results *(Figure 2)*, it shows that Lot 1 and Lot 2 meet the design specification with a variance is 1.15 and 10.13 PSI respectively, and it is within requirements of not exceeding variance 100 PSI. Lot 3 does not meet the design specification, because of its variance of 220.01 PSI and that exceed the requirements variance of 100 PSI. 
 
 <p align="center">
-<img src="Graphics/D2LotSummary.PNG" width="45%" height="45%">
+<img src="Graphics/D2LotSummary.png" width="45%" height="45%">
 </p>
 <p align="center">
 <i>Figure 3: Summary Statistics on Suspension Coils for Each Lot Individually.</i>
@@ -78,18 +78,18 @@ In order to **reject** or **fail to reject our null hypothesis** we have to look
 According to the result *(Figure 3)* p-value for all manufacturing lots is 0.5117, for lot 1 = 0.9048, for lot 2 = 0.3451, and for lot 3 = 0.637. In all cases p-value is above the assumed significance level of 0.05. Therefore, there is not enough evidence and **we fail to reject the null hypothesis**, meaning that the two means not statistically different.
 
 <p align="center">
-<img src="Graphics/D3AllLots.PNG" width="50%" height="50%"> 
+<img src="Graphics/D3AllLots.png" width="50%" height="50%"> 
 </p>
 <p align="center">
 <i>Figure 4: t-Test for All Lots Total.</i>
 </p>
 
 <p align="center">
-<img src="Graphics/D3Lot1.PNG" width="40%" height="40%"> <img src="Graphics/D3Lot2.PNG" width="40%" height="40%">
+<img src="Graphics/D3Lot1.png" width="40%" height="40%"> <img src="Graphics/D3Lot2.png" width="40%" height="40%">
 </p>
 
 <p align="center">
-<img src="Graphics/D3Lot3.PNG" width="40%" height="40%">
+<img src="Graphics/D3Lot3.png" width="40%" height="40%">
 </p>
 <p align="center">
 <i>Figure 5: t-Test for Each Lot Individually.</i>
